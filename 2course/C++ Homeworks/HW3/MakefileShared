@@ -1,0 +1,22 @@
+MAJOR = 5
+MINOR = 1
+RELEASE = 10
+SONAME = libmylib.so.$(MAJOR)
+TARGET = $(SONAME).$(MINOR).$(RELEASE)
+HEADERS = mylib.h
+SOURCES := hello.cpp here.cpp bye.cpp main.cpp
+USING_FILES = hello.cpp here.cpp bye.cpp
+OUTDIR = out
+LIBDIR = lib
+
+$(TARGET): $(patsubst %.cpp, $(OUTDIR)/%.o, ${SOURCES})
+	mkdir -p $(LIBDIR)
+	#g++ -shared -Wl,-rpath,$(LIBDIR),-soname,$(SONAME) -o $(LIBDIR)/$@ $(patsubst %.cpp, $(OUTDIR)/%.o, ${USING_FILES})
+	g++ -shared -o $(LIBDIR)/$@ $(patsubst %.cpp, $(OUTDIR)/%.o, ${USING_FILES})
+
+$(OUTDIR)/%.o: %.cpp $(HEADERS)
+	mkdir -p $(OUTDIR)
+	g++ -fPIC -c $< -o $@
+
+clean:
+	rm -rf $(OUTDIR)

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW2/Book.cpp
+iostream
+-
+cstring
+-
+Book.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW2/Book.h
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW2/Book.h
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW2/main.cpp
+iostream
+-
+Book.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW2/Book.h
+

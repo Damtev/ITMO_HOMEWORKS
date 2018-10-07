@@ -25,12 +25,8 @@ void print(bool b) {
     cout << "\t" << "print(" << b << "): " << b << endl;
 }
 
-void print(const string &s) {
-    cout << "\t" << "print(" << s << "): " << s << endl;
-}
-
-int power(int degree, int foundation = 3) {
-    return (int) pow(foundation, degree);
+void print(const string &s = "Hello, world!") {
+    cout << s << endl;
 }
 
 int increment(int n) {
@@ -49,12 +45,7 @@ class Student {
 public:
     static int studentCounter;
 
-    Student() {
-        ++studentCounter;
-        _course = 1;
-    }
-
-    explicit Student(int course) {
+    explicit Student(int course = 1) {
         ++studentCounter;
         this->_course = course;
     }
@@ -108,11 +99,13 @@ void task(int number) {
             cout << "Function overloading" << endl;
             print(n);
             print(false);
-            print(*new string("Hello, world"));
             break;
         case 3:
             cout << "Default arguments" << endl;
-            printf("\t3 in %d degree is %d\n", n, power(n));
+            cout << "\tDefault argument: ";
+            print();
+            cout << "\tGiven argument: ";
+            print(string("Goodbye, world!"));
             break;
         case 4:
             cout << "Pass by value, pass by reference and return by reference" << endl;
@@ -134,7 +127,7 @@ void task(int number) {
                     cout << i << " ";
                 }
                 cout << endl;
-                getElement(2, array) = 228;
+                getElement(2, array) = 64;
                 cout << "\t\t" << "Now array is ";
                 for (int i : array) {
                     cout << i << " ";
@@ -175,5 +168,5 @@ void run(int amount) {
 
 int main() {
     cout << boolalpha;
-    run(5);
+    run(5); //5 и 6 задания объединены
 }

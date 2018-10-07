@@ -1,0 +1,17 @@
+TARGET = mylib.a
+HEADERS = mylib.h
+SOURCES = hello.cpp here.cpp bye.cpp main.cpp
+USING_FILES = hello.cpp here.cpp bye.cpp
+OUTDIR = out
+LIBDIR = lib
+
+$(TARGET): $(patsubst %.cpp, $(OUTDIR)/%.o, ${SOURCES})
+	mkdir -p $(LIBDIR)
+	ar cr $(LIBDIR)/$@ $(patsubst %.cpp, $(OUTDIR)/%.o, ${USING_FILES})
+
+$(OUTDIR)/%.o: %.cpp $(HEADERS)
+	mkdir -p $(OUTDIR)
+	g++ -c $< -o $@
+
+clean:
+	rm -rf $(OUTDIR)

@@ -1,0 +1,18 @@
+MAJOR = 5
+MINOR = 1
+RELEASE = 10
+SONAME = libmylib.so.$(MAJOR)
+DYNAMIC_LIB = $(SONAME).$(MINOR).$(RELEASE)
+#DYNAMIC_LIB = mylib
+STATIC_LIB_NAME = mylib
+STATIC_LIB = $(STATIC_LIB_NAME).a
+LIBS = lib
+
+binary: main.cpp
+	g++ main.cpp -o main_static -L $(LIBS) -l:$(STATIC_LIB)
+	#g++ main.cpp -o main_dynamic -L $(LIBS) -l:$(DYNAMIC_LIB)
+	#g++ main.cpp -L $(LIBS) -lmylib -o main_dynamic
+	g++ main.cpp -L $(LIBS) -o main_dynamic -l:libmylib.so.5.1.10
+
+clean:
+	rm -f main_*

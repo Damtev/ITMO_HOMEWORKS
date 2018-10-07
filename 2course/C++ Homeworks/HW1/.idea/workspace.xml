@@ -11,7 +11,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52728a69-9d6a-460d-a580-3a5a65054efc" name="Default Changelist" comment="" />
+    <list default="true" id="52728a69-9d6a-460d-a580-3a5a65054efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/classes/HttpServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/classes/HttpServer$Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/classes/HttpServer$Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/classes/HttpServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/test-classes/Tests$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/test-classes/Tests$Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/target/test-classes/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HW1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HW1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HW1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HW1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/src/main/java/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/src/main/java/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/_russian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/_russian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/has_png.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/has_png.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/images/blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/images/blog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/русский.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/русский.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/русский.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/HW1/server14-v2/static/русский.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +46,19 @@
     <session id="2069438535">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3512" />
+          <entry key="cpp" value="3854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="3512" />
+          <entry key="ObjectiveC" value="3854" />
         </counts>
       </usages-collector>
     </session>
@@ -46,12 +68,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
+            <state relative-caret-position="23">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#68#132#0" />
-                <element signature="e#134#268#0" />
               </folding>
             </state>
           </provider>
@@ -92,13 +112,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,16 +160,19 @@
       <updated>1537094653434</updated>
       <workItem from="1537094656114" duration="9957000" />
       <workItem from="1537282844779" duration="1549000" />
+      <workItem from="1537360329843" duration="2075000" />
+      <workItem from="1537693604858" duration="59000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11506000" />
+    <option name="totallyTimeSpent" value="13640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10459325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10680686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,12 +206,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
+        <state relative-caret-position="23">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#68#132#0" />
-            <element signature="e#134#268#0" />
           </folding>
         </state>
       </provider>

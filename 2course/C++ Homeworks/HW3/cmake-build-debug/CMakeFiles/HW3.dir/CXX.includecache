@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/bye.cpp
+mylib.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/mylib.h
+iostream
+-
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/hello.cpp
+mylib.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/mylib.h
+iostream
+-
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/here.cpp
+mylib.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/mylib.h
+iostream
+-
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/main.cpp
+mylib.h
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/mylib.h
+iostream
+-
+
+/media/damtev/Storage/ITMO/ITMO_HOMEWORKS/2course/C++ Homeworks/HW3/mylib.h
+
