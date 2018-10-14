@@ -11,7 +11,8 @@ import java.util.zip.GZIPOutputStream;
 
 public class GzipFilter extends HttpFilter {
     @Override
-    protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
+    protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
         String acceptEncodingHeaderValue = request.getHeader("Accept-Encoding");
         if (acceptEncodingHeaderValue != null
                 && acceptEncodingHeaderValue.toLowerCase().contains("gzip")) {
