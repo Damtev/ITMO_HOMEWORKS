@@ -18,16 +18,14 @@ public class CaptchaFilter extends HttpFilter {
     @Override
     protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
             throws IOException, ServletException {
-        if (!isGet(request) || isCaptchaPassed(request) || isCorrectAnswer(request)) {
-//            request.getParameterMap().put("answer", null);
+        if (!isGet(request) || isFavicon(request) || isCaptchaPassed(request) || isCorrectAnswer(request)) {
             chain.doFilter(request, response);
             return;
         }
 
-        String expectedAnswer = String.valueOf(ThreadLocalRandom.current().nextInt(100, 1000));
+        String expectedAnswer = generateText();
         request.getSession().setAttribute("Expected-Answer", expectedAnswer);
         sendCaptcha(response, expectedAnswer);
-//        super.doFilter(request, response, chain);
     }
 
     private boolean isGet(HttpServletRequest request) {
@@ -39,9 +37,21 @@ public class CaptchaFilter extends HttpFilter {
                 (Boolean) request.getSession().getAttribute("Captcha-Passed");
     }
 
+    private boolean isFavicon(HttpServletRequest request) {
+        return request.getRequestURI().endsWith("favicon.ico");
+    }
+
     private boolean isCorrectAnswer(HttpServletRequest request) {
-        return request.getParameter("answer") != null &&
-                request.getParameter("answer").equals(request.getSession().getAttribute("Expected-Answer"));
+        if (request.getParameter("answer") != null &&
+                request.getParameter("answer").equals(request.getSession().getAttribute("Expected-Answer"))) {
+            request.getSession().setAttribute("Captcha-Passed", true);
+            return true;
+        }
+        return false;
+    }
+
+    private String generateText() {
+        return String.valueOf(ThreadLocalRandom.current().nextInt(100, 1000));
     }
 
     private void sendCaptcha(HttpServletResponse response, String expectedAnswer) throws IOException {

@@ -7,23 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97339e0b-aec4-43f6-8acc-f1b98f2c934e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW1/server14-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW1/server14-v2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wp31_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wp31_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/GzipFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/StaticServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/GzipFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/MessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/StaticServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp31.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wp31.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet$Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,51 +37,57 @@
     <session id="1449557139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="43" />
           <entry key="css" value="9" />
-          <entry key="html" value="11" />
-          <entry key="java" value="25" />
+          <entry key="html" value="13" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="29" />
           <entry key="js" value="1" />
           <entry key="png" value="1" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="43" />
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="13" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="29" />
           <entry key="JavaScript" value="1" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2" />
-          <entry key="java" value="3128" />
+          <entry key="java" value="3245" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="3128" />
+          <entry key="JAVA" value="3245" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -88,50 +95,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/captcha-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="291">
+              <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -158,6 +176,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pro</find>
+      <find>getR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,6 +233,11 @@
             <path>
               <item name="wp31" type="b2602c69:ProjectViewProjectNode" />
               <item name="wp3" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wp31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,15 +275,6 @@
               <item name="wp3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wp31" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wp3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,15 +284,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wp31" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wp3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wp31" type="b2602c69:ProjectViewProjectNode" />
@@ -304,23 +310,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539450862663" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HW1/server14-v2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540667021914" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Hackathon/server/diploma-validator/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -543,6 +549,15 @@
       <workItem from="1539106442957" duration="7890000" />
       <workItem from="1539436081931" duration="12507000" />
       <workItem from="1539508233266" duration="93000" />
+      <workItem from="1539765241211" duration="3026000" />
+      <workItem from="1540052810193" duration="19000" />
+      <workItem from="1540229912309" duration="48000" />
+      <workItem from="1540289030593" duration="733000" />
+      <workItem from="1540576955004" duration="901000" />
+      <workItem from="1540577886842" duration="1371000" />
+      <workItem from="1540580243819" duration="10080000" />
+      <workItem from="1540667055340" duration="599000" />
+      <workItem from="1540698139088" duration="599000" />
     </task>
     <servers />
   </component>
@@ -579,12 +594,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40728000" />
+    <option name="totallyTimeSpent" value="58104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16934144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -624,12 +639,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="request.getMethod()" language="JAVA" />
         <watch expression="request.getSession().getAttribute(&quot;Captcha-Passed&quot;)" language="JAVA" />
         <watch expression="request.getParameter(&quot;answer&quot;)" language="JAVA" />
         <watch expression="request.getSession()" language="JAVA" />
+        <watch expression="request.getSession().getAttribute(&quot;Expected-Answer&quot;)" language="JAVA" />
         <watch expression="request.getParameterMap()" language="JAVA" />
       </configuration>
       <configuration name="JUnit">
@@ -640,6 +666,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>request.getSession().getAttribute(&quot;Expected-Answer&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getParameterMap()</expression-string>
         <language-id>JAVA</language-id>
@@ -685,21 +716,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>response.getContentType()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="3285" column="23" selection-start-line="3285" selection-start-column="23" selection-end-line="3285" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/test7013061245021.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/methods/HttpGet.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,13 +816,6 @@
         <state relative-caret-position="-9867" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -823,16 +835,6 @@
         <state relative-caret-position="-2208" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -844,13 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2538">
           <caret line="189" column="24" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -949,10 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding>
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,16 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -996,24 +977,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="529">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java">
+    <entry file="file://$PROJECT_DIR$/wp31.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="-184">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
         </state>
       </provider>
     </entry>
