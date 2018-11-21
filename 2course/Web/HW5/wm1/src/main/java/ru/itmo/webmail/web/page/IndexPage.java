@@ -9,6 +9,6 @@ public class IndexPage extends Page {
     }
 
     private void registrationDone(HttpServletRequest request, Map<String, Object> view) {
-        view.put("message", "You have been registered");
+        view.put("message", "Check your email for confirmation message");
     }
 }

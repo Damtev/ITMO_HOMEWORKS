@@ -29,6 +29,16 @@ public class UserService {
             throw new ValidationException("Login is already in use");
         }
 
+        if (user.getEmail() == null || user.getEmail().isEmpty()) {
+            throw new ValidationException("Email is required");
+        }
+        if (!user.getEmail().matches("[^@]+@[^@]+")) {
+            throw new ValidationException("Invalid email");
+        }
+        if (userRepository.findByEmail(user.getEmail()) != null) {
+            throw new ValidationException("Email is already in use");
+        }
+
         if (password == null || password.isEmpty()) {
             throw new ValidationException("Password is required");
         }
@@ -42,22 +52,25 @@ public class UserService {
 
     public void register(User user, String password) {
         String passwordSha = getPasswordSha(password);
-        userRepository.save(user, passwordSha);
+        userRepository.save(user, user.getEmail(), passwordSha);
     }
 
     public List<User> findAll() {
         return userRepository.findAll();
     }
 
-    public void validateEnter(String login, String password) throws ValidationException {
-        if (login == null || login.isEmpty()) {
-            throw new ValidationException("Login is required");
+    public void validateEnter(/*String login, String email,*/String loginOrEmail, String password) throws ValidationException {
+        if (loginOrEmail == null || loginOrEmail.isEmpty()) {
+            throw new ValidationException("Login or email is required");
         }
-        if (!login.matches("[a-z]+")) {
-            throw new ValidationException("Login can contain only lowercase Latin letters");
-        }
-        if (login.length() > 8) {
-            throw new ValidationException("Login can't be longer than 8");
+        if (loginOrEmail.contains("@")) {
+            if (userRepository.findByLoginOrEmailAndPasswordSha(loginOrEmail, getPasswordSha(password)) == null) {
+                throw new ValidationException("Invalid email or password");
+            }
+        } else {
+            if (userRepository.findByLoginOrEmailAndPasswordSha(loginOrEmail, getPasswordSha(password)) == null) {
+                throw new ValidationException("Invalid login or password");
+            }
         }
 
         if (password == null || password.isEmpty()) {
@@ -69,10 +82,6 @@ public class UserService {
         if (password.length() > 32) {
             throw new ValidationException("Password can't be longer than 32");
         }
-
-        if (userRepository.findByLoginAndPasswordSha(login, getPasswordSha(password)) == null) {
-            throw new ValidationException("Invalid login or password");
-        }
     }
 
     private String getPasswordSha(String password) {
@@ -80,11 +89,19 @@ public class UserService {
                 StandardCharsets.UTF_8).toString();
     }
 
-    public User authorize(String login, String password) {
-        return userRepository.findByLoginAndPasswordSha(login, getPasswordSha(password));
+    public User authorize(String loginOrEmail, String password) {
+        return userRepository.findByLoginOrEmailAndPasswordSha(loginOrEmail, getPasswordSha(password));
     }
 
     public User find(long userId) {
         return userRepository.find(userId);
+    }
+
+    public void confirm(long userId) {
+        userRepository.confirm(userId);
+    }
+
+    public User findByLogin(String login) {
+        return userRepository.findByLogin(login);
     }
 }

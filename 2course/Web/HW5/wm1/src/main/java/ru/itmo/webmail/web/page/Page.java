@@ -1,20 +1,32 @@
 package ru.itmo.webmail.web.page;
 
 import ru.itmo.webmail.model.domain.User;
+import ru.itmo.webmail.model.service.EmailConfirmationService;
+import ru.itmo.webmail.model.service.EventService;
 import ru.itmo.webmail.model.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 public class Page {
-    static final String USER_ID_SESSION_KEY = "userId";
+    public static final String USER_ID_SESSION_KEY = "userId";
 
     private UserService userService = new UserService();
+    private EventService eventService = new EventService();
+    private EmailConfirmationService emailConfirmationService = new EmailConfirmationService();
 
     private User user;
 
     UserService getUserService() {
         return userService;
+    }
+
+    public EventService getEventService() {
+        return eventService;
+    }
+
+    public EmailConfirmationService getEmailConfirmationService() {
+        return emailConfirmationService;
     }
 
     public User getUser() {

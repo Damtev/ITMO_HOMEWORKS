@@ -1,5 +1,6 @@
 package ru.itmo.webmail.model.repository.impl;
 
+import javafx.util.Pair;
 import ru.itmo.webmail.model.database.DatabaseUtils;
 import ru.itmo.webmail.model.domain.User;
 import ru.itmo.webmail.model.exception.RepositoryException;
@@ -53,12 +54,32 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public User findByLoginAndPasswordSha(String login, String passwordSha) {
+    public User findByEmail(String email) {
         try (Connection connection = DATA_SOURCE.getConnection()) {
             try (PreparedStatement statement = connection.prepareStatement(
-                    "SELECT * FROM User WHERE login=? AND passwordSha=?")) {
-                statement.setString(1, login);
-                statement.setString(2, passwordSha);
+                    "SELECT * FROM User WHERE email=?")) {
+                statement.setString(1, email);
+                try (ResultSet resultSet = statement.executeQuery()) {
+                    if (resultSet.next()) {
+                        return toUser(statement.getMetaData(), resultSet);
+                    } else {
+                        return null;
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            throw new RepositoryException("Can't find User by email.", e);
+        }
+    }
+
+    @Override
+    public User findByLoginOrEmailAndPasswordSha(String loginOrEmail, String passwordSha) {
+        try (Connection connection = DATA_SOURCE.getConnection()) {
+            try (PreparedStatement statement = connection.prepareStatement(
+                    "SELECT * FROM User WHERE (login=? OR email=?) AND passwordSha=?")) {
+                statement.setString(1, loginOrEmail);
+                statement.setString(2, loginOrEmail);
+                statement.setString(3, passwordSha);
                 try (ResultSet resultSet = statement.executeQuery()) {
                     if (resultSet.next()) {
                         return toUser(statement.getMetaData(), resultSet);
@@ -80,7 +101,10 @@ public class UserRepositoryImpl implements UserRepository {
                     "SELECT * FROM User ORDER BY id")) {
                 try (ResultSet resultSet = statement.executeQuery()) {
                     while (resultSet.next()) {
-                        users.add(toUser(statement.getMetaData(), resultSet));
+                        User user = toUser(statement.getMetaData(), resultSet);
+                        if (user.isConfirmed()) {
+                            users.add(user);
+                        }
                     }
                 }
             }
@@ -101,8 +125,12 @@ public class UserRepositoryImpl implements UserRepository {
                 user.setLogin(resultSet.getString(i));
             } else if ("passwordSha".equalsIgnoreCase(columnName)) {
                 // No operations.
+            } else if ("email".equalsIgnoreCase(columnName)) {
+                user.setEmail(resultSet.getString(i));
             } else if ("creationTime".equalsIgnoreCase(columnName)) {
                 user.setCreationTime(resultSet.getTimestamp(i));
+            } else if ("confirmed".equalsIgnoreCase(columnName)) {
+                user.setConfirmed(resultSet.getBoolean(i));
             } else {
                 throw new RepositoryException("Unexpected column 'User." + columnName + "'.");
             }
@@ -111,18 +139,19 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public void save(User user, String passwordSha) {
+    public void save(User user, String email, String passwordSha) {
         try (Connection connection = DATA_SOURCE.getConnection()) {
             try (PreparedStatement statement = connection.prepareStatement(
-                    "INSERT INTO User (login, passwordSha, creationTime) VALUES (?, ?, NOW())",
+                    "INSERT INTO User (login, email, passwordSha, creationTime) VALUES (?, ?, ?, NOW())",
                     Statement.RETURN_GENERATED_KEYS)) {
                 statement.setString(1, user.getLogin());
-                statement.setString(2, passwordSha);
+                statement.setString(2, user.getEmail());
+                statement.setString(3, passwordSha);
                 if (statement.executeUpdate() == 1) {
                     ResultSet generatedIdResultSet = statement.getGeneratedKeys();
                     if (generatedIdResultSet.next()) {
                         user.setId(generatedIdResultSet.getLong(1));
-                        user.setCreationTime(findCreationTime(user.getId()));
+                        user.setCreationTime(DatabaseUtils.findCreationTime(user));
                     } else {
                         throw new RepositoryException("Can't find id of saved User.");
                     }
@@ -135,20 +164,22 @@ public class UserRepositoryImpl implements UserRepository {
         }
     }
 
-    private Date findCreationTime(long userId) {
+    @Override
+    public void confirm(long userId) {
+        User user = find(userId);
+        if (user == null) {
+            throw new RepositoryException("Can't find User by id.");
+        }
+        user.setConfirmed(true);
         try (Connection connection = DATA_SOURCE.getConnection()) {
             try (PreparedStatement statement = connection.prepareStatement(
-                    "SELECT creationTime FROM User WHERE id=?")) {
-                statement.setLong(1, userId);
-                try (ResultSet resultSet = statement.executeQuery()) {
-                    if (resultSet.next()) {
-                        return resultSet.getTimestamp(1);
-                    }
-                }
-                throw new RepositoryException("Can't find User.creationTime by id.");
+                    "UPDATE User SET confirmed=true where id=?",
+                    Statement.RETURN_GENERATED_KEYS)) {
+                statement.setLong(1, user.getId());
+                statement.execute();
             }
         } catch (SQLException e) {
-            throw new RepositoryException("Can't find User.creationTime by id.", e);
+            throw new RepositoryException("Can't confirm User.", e);
         }
     }
 }

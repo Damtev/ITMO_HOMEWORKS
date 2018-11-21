@@ -14,6 +14,7 @@ import java.nio.file.Files;
 public class StaticFilter extends HttpFilter {
     @Override
     protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
+        request.setCharacterEncoding(StandardCharsets.UTF_8.name());
         response.setCharacterEncoding(StandardCharsets.UTF_8.name());
 
         String uri = request.getRequestURI();

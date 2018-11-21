@@ -18,6 +18,8 @@ public:
 	String& operator=(const char* str);
 	String& operator=(const String& other);
 
+	bool operator==(const std::string& string);
+
 	void append(const String& other);
 
 private:

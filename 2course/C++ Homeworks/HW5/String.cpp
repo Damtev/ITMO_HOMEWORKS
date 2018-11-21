@@ -45,18 +45,24 @@ String& String::operator=(const String& other) {
 	_size = other._size;
 	_str = new char[_size + 1];
 	strcpy(_str, other._str);
+
 	return *this;
 }
 
 void String::append(const String& other) {
-	size_t resultSize = _size + other._size;
-	char* resultStr = new char[resultSize + 1];
+	_size = _size + other._size;
+	char* resultStr = new char[_size + 1];
 	strcpy(resultStr, _str);
-	strcat(resultStr, other._str); //присоединяет str к resultStr, завершающий нулевой байт строки resultStr стирается
-	*this = resultStr;
+	strcat(resultStr, other._str); // Нулевой символ конца строки destptr заменяется первым символом строки srcptr,
+	delete[] _str; // и новый нуль-символ добавляется в конец уже новой строки
+	_str = resultStr;
 }
 
 std::ostream& operator<<(std::ostream &out, const String &string) {
 	out << string._str;
 	return out;
+}
+
+bool String::operator==(const std::string& string) {
+	return (_str == string);
 }

@@ -84,6 +84,11 @@ aside {
     width: 20rem;
 }
 
+.middle section .body {
+    word-wrap: break-word;
+    font-size: 0.8rem;
+}
+
 main {
     margin-right: 21rem;
 }
