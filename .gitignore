@@ -9,7 +9,7 @@ resources/
 webapp/
 *.7z
 cmake-build-debug
-.mvn/
-target
-node_modules
+*/.mvn/
+*/target/*
+*/node_modules/*
 *.png
