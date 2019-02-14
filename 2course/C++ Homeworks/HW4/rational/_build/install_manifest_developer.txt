@@ -1,0 +1,10 @@
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/lib/liblib_rational.dll.a
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/bin/liblib_rational.dll
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/include/./RationalNumber.h
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/include/./RationalPolynom.h
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/share/lib_rational.cmake
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/share/lib_rational-noconfig.cmake
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/bin/rational_poly.exe
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/../_build/mylib_test/./test1.txt
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/../_build/mylib_test/./test2.txt
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/installer/../_build/mylib_test/./test3.txt

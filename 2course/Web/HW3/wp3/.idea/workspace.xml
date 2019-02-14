@@ -7,24 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97339e0b-aec4-43f6-8acc-f1b98f2c934e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW1/server14-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW1/server14-v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/Cmake1/CmakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/Cmake2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/dubrov_d_v_sistema_postroeniya_proektov_cmake.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/hw4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalPolynom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalPolynom.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/rational_poly/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/rational_poly/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/mylib_test/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet$Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +31,8 @@
     <session id="1449557139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -50,7 +45,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="946">
               <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
@@ -107,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="748">
               <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
             </state>
           </provider>
@@ -116,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="220">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
@@ -125,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="924">
               <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
             </state>
           </provider>
@@ -134,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+            <state relative-caret-position="88">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="154">
               <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="22">
               <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
             </state>
           </provider>
@@ -223,6 +218,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,9 +308,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,6 +553,7 @@
       <workItem from="1540580243819" duration="10080000" />
       <workItem from="1540667055340" duration="599000" />
       <workItem from="1540698139088" duration="599000" />
+      <workItem from="1546437160203" duration="38000" />
     </task>
     <servers />
   </component>
@@ -594,12 +590,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58104000" />
+    <option name="totallyTimeSpent" value="58142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18981738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -993,35 +989,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="946">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="748">
           <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="220">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="924">
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="154">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1033,15 +1029,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="22">
           <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="88">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

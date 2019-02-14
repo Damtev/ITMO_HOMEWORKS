@@ -23,6 +23,7 @@ RationalNumber RationalPolynom::calculate(const RationalNumber &value) {
 	RationalNumber gornerCoefficient(_coefficients[0]);
 	for (int i = 1; i < _coefficients.size(); ++i) {
 		gornerCoefficient = _coefficients[i] + gornerCoefficient * value;
+		gornerCoefficient.reduce();
 	}
 	return gornerCoefficient;
 }

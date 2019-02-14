@@ -1,0 +1,112 @@
+Start testing: Dec 27 17:30 RTZ 2 (ceia)
+----------------------------------------------------------
+1/3 Testing: test1
+1/3 Test: test1
+Command: "D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/bin/mylib_test.exe" "test1.txt"
+Directory: D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/mylib_test
+"test1" start time: Dec 27 17:30 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+n 1
+numerator an denominator 9 5
+Real ans 0
+Count 0
+n 2
+numerator an denominator -3 7
+numerator an denominator 2 3
+Real ans 1
+Count 1
+n 3
+numerator an denominator 8 2
+numerator an denominator -9 3
+numerator an denominator -8 6
+Real ans -1
+Count -1
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test1" end time: Dec 27 17:30 RTZ 2 (ceia)
+"test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: test2
+2/3 Test: test2
+Command: "D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/bin/mylib_test.exe" "test2.txt"
+Directory: D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/mylib_test
+"test2" start time: Dec 27 17:30 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+n 6
+numerator an denominator 79 105
+numerator an denominator -66 2
+numerator an denominator -28 12
+numerator an denominator 116 28
+numerator an denominator -37 85
+numerator an denominator -63 53
+Real ans 1
+Count 1
+n 1
+numerator an denominator 80 25
+Real ans 0
+Count 0
+n 2
+numerator an denominator -22 59
+numerator an denominator -77 111
+Real ans 1
+Count 1
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test2" end time: Dec 27 17:30 RTZ 2 (ceia)
+"test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: test3
+3/3 Test: test3
+Command: "D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/bin/mylib_test.exe" "test3.txt"
+Directory: D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/_build/mylib_test
+"test3" start time: Dec 27 17:30 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+n 9
+numerator an denominator -22 29
+numerator an denominator -17 21
+numerator an denominator 13 17
+numerator an denominator 11 5
+numerator an denominator 29 16
+numerator an denominator -21 11
+numerator an denominator 21 22
+numerator an denominator 4 10
+numerator an denominator 24 5
+Real ans 1
+Count 1
+n 8
+numerator an denominator 22 9
+numerator an denominator -6 7
+numerator an denominator 12 10
+numerator an denominator -23 20
+numerator an denominator 26 24
+numerator an denominator 22 4
+numerator an denominator 4 22
+numerator an denominator -2 29
+Real ans -1
+Count -1
+n 5
+numerator an denominator 12 21
+numerator an denominator -11 5
+numerator an denominator 17 28
+numerator an denominator -12 28
+numerator an denominator -8 4
+Real ans 1
+Count 1
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test3" end time: Dec 27 17:30 RTZ 2 (ceia)
+"test3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 27 17:30 RTZ 2 (ceia)

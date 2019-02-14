@@ -1,15 +1,45 @@
-cmake_minimum_required(VERSION 3.12)
-project(lib)
+cmake_minimum_required(VERSION 2.8)
+project(lib_rational)
 
-set(CMAKE_CXX_STANDARD 14)
+set(BUILD_SHARED_LIBS ON)
+
+add_library(${PROJECT_NAME} RationalNumber.cpp RationalNumber.h RationalPolynom.cpp RationalPolynom.h)
+
+get_property(
+	LIB_TYPE
+	TARGET ${PROJECT_NAME}
+	PROPERTY TYPE)
+
+if(LIB_TYPE STREQUAL SHARED_LIBRARY)
+	install(
+		TARGETS ${PROJECT_NAME}
+		COMPONENT user
+		RUNTIME
+			DESTINATION bin
+		LIBRARY
+			DESTINATION lib)
+endif()
 
 
-set(SOURCE_LIB RationalPolynom.cpp RationalNumber.cpp)
-set(HEADERS_LIB ../cmake-build-debug/build/include/RationalPolynom.h ../cmake-build-debug/build/include/RationalNumber.h)
-set(PROJECT_SOURCE_DIR ${CMAKE_SOURCE_DIR})
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../build/lib)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../build/bin)
-#set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../build/lib)
+install(
+	TARGETS ${PROJECT_NAME}
+	EXPORT ${PROJECT_NAME}
+	COMPONENT developer
+	RUNTIME
+		DESTINATION bin
+	LIBRARY
+		DESTINATION lib
+	ARCHIVE
+		DESTINATION lib)
 
-add_library(rational STATIC ${SOURCE_LIB} ${HEADERS_LIB})
-add_library(rational_shared SHARED ${SOURCE_LIB} ${HEADERS_LIB})
+install(
+	DIRECTORY .
+	DESTINATION include
+	COMPONENT developer
+	FILES_MATCHING
+		PATTERN "*.h")
+
+install(
+	EXPORT ${PROJECT_NAME}
+	DESTINATION share
+	COMPONENT developer)

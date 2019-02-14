@@ -1,12 +1,18 @@
-cmake_minimum_required(VERSION 3.12)
-project(poly)
+cmake_minimum_required(VERSION 2.8)
+project(rational_poly)
 
-set(CMAKE_CXX_STANDARD 14)
-set(PROJECT_SOURCE_DIR ${CMAKE_SOURCE_DIR})
-set(EXECUTABLE_OUTPUT_PATH ../build/bin)
+add_executable(${PROJECT_NAME} rational_poly.cpp)
+include_directories(../lib_rational)
 
-add_executable(poly rational_poly.cpp)
+target_link_libraries(${PROJECT_NAME} lib_rational)
 
-target_include_directories(poly PRIVATE ../lib_rational)
 
-target_link_libraries(poly rational)
+install(
+	TARGETS ${PROJECT_NAME}
+	COMPONENT user
+		DESTINATION bin)
+install(
+	TARGETS ${PROJECT_NAME}
+	COMPONENT developer
+	RUNTIME
+		DESTINATION bin)

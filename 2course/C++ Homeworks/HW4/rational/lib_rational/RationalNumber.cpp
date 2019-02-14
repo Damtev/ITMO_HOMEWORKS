@@ -22,15 +22,22 @@ RationalNumber::RationalNumber(const RationalNumber &other) {
 int64_t _gcd(int64_t numerator, int64_t denominator) {
 //	int64_t newNumerator = this->_numerator;
 //	int64_t denominator = this->_denominator;
-	while (numerator != 0 && denominator != 0) {
-		numerator > denominator ? numerator %= denominator : denominator %= numerator;
+//	while (numerator != 0 && denominator != 0) {
+//		numerator > denominator ? numerator %= denominator : denominator %= numerator;
+//	}
+//	return numerator + denominator;
+    while (denominator) {
+		numerator %= denominator;
+		numerator = numerator ^ denominator;
+		denominator = numerator ^ denominator;
+		numerator = numerator ^ denominator;
 	}
-	return numerator + denominator;
+	return numerator;
 }
 
 RationalNumber& RationalNumber::reduce() {
 	RationalNumber& rationalNumber(*this);
-	int64_t gcd = _gcd(_numerator, _denominator);
+	int64_t gcd = _gcd(abs(_numerator), abs(_denominator));
 	rationalNumber._numerator /= gcd;
 	rationalNumber._denominator /= gcd;
 	return rationalNumber;
@@ -57,6 +64,10 @@ RationalNumber RationalNumber::operator*(const RationalNumber &other) const {
 RationalNumber RationalNumber::operator/(const RationalNumber &other) const {
 	int64_t resultNumerator  = _numerator * other._denominator;
 	int64_t resultDenominator = _denominator * other._numerator;
+	if (resultDenominator < 0) {
+		resultNumerator *= -1;
+		resultDenominator *= -1;
+	}
 	return {resultNumerator, resultDenominator};
 }
 

@@ -1,0 +1,54 @@
+article .title {
+    font-size: 1.4rem;
+    color: #3B5998;
+    padding-bottom: 7px;
+}
+
+article .information {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+article .body {
+    padding-left: 1em;
+    border-left: 4px solid #B9B9B9;;
+}
+
+article .attachment {
+}
+
+article .attachment li {
+    margin-left: -20px;
+    list-style-image: url("https://st.codeforces.com/s/12191/images/icons/paperclip-16x16.png");
+}
+
+article .footer {
+    border: 1px solid rgb(185, 185, 185);
+    margin-top: 1em;
+    height: 2.5em;
+    margin-bottom: 10px;
+}
+
+article .footer .left {
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+article .footer .left img {
+    vertical-align: middle;
+}
+
+article .footer .left .positive-score {
+    font-size: larger;
+    font-weight: bold;
+    color: green;
+    vertical-align: top;
+}
+
+article .footer .right {
+    float: right;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px
+}

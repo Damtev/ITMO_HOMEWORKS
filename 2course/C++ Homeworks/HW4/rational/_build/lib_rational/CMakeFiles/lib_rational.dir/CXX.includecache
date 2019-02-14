@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalNumber.cpp
+algorithm
+-
+iostream
+-
+../lib_rational/RationalNumber.h
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalNumber.h
+
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalNumber.h
+cstdint
+-
+ostream
+-
+
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalPolynom.cpp
+../lib_rational/RationalPolynom.h
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalPolynom.h
+
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalPolynom.h
+vector
+-
+cstdint
+-
+RationalNumber.h
+D:/ITMO/ITMO_HOMEWORKS/2course/C/HW4/rational/lib_rational/RationalNumber.h
+

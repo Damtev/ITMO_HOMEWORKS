@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3563c8b3-2882-4584-81a3-da4f4f9bb806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW3/mylib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/Cmake1/CmakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/Cmake2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/dubrov_d_v_sistema_postroeniya_proektov_cmake.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/hw4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalNumber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalPolynom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/lib_rational/RationalPolynom.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/rational_poly/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/rational_poly/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++ Homeworks/HW4/rational/mylib_test/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW2/codeforces-layout/_layout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW3/wp3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW3/wp3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HW3/wp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW3/wp3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW3/wp3/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW3/wp3/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW3/wp3/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW3/wp3/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW3/wp3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW3/wp3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +58,12 @@
     <session id="421208314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2599">
+            <state relative-caret-position="2486">
               <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -167,8 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +227,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Course" />
     </panes>
   </component>
@@ -392,6 +398,7 @@
       <workItem from="1538934272109" duration="117000" />
       <workItem from="1539107754969" duration="1244000" />
       <workItem from="1540646663215" duration="80000" />
+      <workItem from="1546437201362" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Web HW1 and C++ HW1">
       <created>1537303254054</created>
@@ -436,18 +443,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25472000" />
+    <option name="totallyTimeSpent" value="25498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-30" width="1920" height="1110" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23585913" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23852721" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32959184" />
@@ -557,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
+        <state relative-caret-position="2486">
           <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />

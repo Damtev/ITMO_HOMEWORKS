@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7b5b6a3-811a-4753-b768-e7c80a173bd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../C++ Homeworks/HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C++ Homeworks/HW3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C++ Homeworks/HW3/mylib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C++ Homeworks/HW3/mylib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW1/server14-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW1/server14-v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW3/wp3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW3/wp3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW3/wp3/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/MessageServlet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/MessageServlet$Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HW3/wp3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW3/wp3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
-    </list>
+    <list default="true" id="f7b5b6a3-811a-4753-b768-e7c80a173bd4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +13,13 @@
     <session id="1221473521">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="1020">
               <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
             </state>
           </provider>
@@ -81,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="190" column="39" selection-start-line="190" selection-start-column="39" selection-end-line="190" selection-end-column="39" />
+            <state relative-caret-position="633">
+              <caret line="185" column="1" lean-forward="true" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -125,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -149,12 +129,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537962362603" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -189,17 +171,18 @@
       <workItem from="1540636484604" duration="2269000" />
       <workItem from="1540667056791" duration="3086000" />
       <workItem from="1540698139916" duration="608000" />
+      <workItem from="1543345770875" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44491000" />
+    <option name="totallyTimeSpent" value="44574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1455451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14720531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,15 +220,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="1020">
           <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="190" column="39" selection-start-line="190" selection-start-column="39" selection-end-line="190" selection-end-column="39" />
+        <state relative-caret-position="633">
+          <caret line="185" column="1" lean-forward="true" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
         </state>
       </provider>
     </entry>
