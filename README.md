@@ -1,2 +1,3 @@
 # ITMO_HOMEWORKS
-Java, C++ and Web homeworks in ITMO
+Java, C++ and Web homeworks at ITMO university
+ 
